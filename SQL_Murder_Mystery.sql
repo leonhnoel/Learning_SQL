@@ -1,7 +1,9 @@
--- A crime has taken place and the detective needs your help. 
--- The detective gave you the crime scene report, but you somehow lost it. 
--- You vaguely remember that the crime was a murder that occurred sometime on Jan 15, 2018 and that it took place in SQL City
--- Start by retrieving the corresponding crime scene report from the police department’s database.
+/* 
+A crime has taken place and the detective needs your help. 
+The detective gave you the crime scene report, but you somehow lost it. 
+You vaguely remember that the crime was a murder that occurred sometime on Jan 15, 2018 and that it took place in SQL City
+Start by retrieving the corresponding crime scene report from the police department’s database.
+*/
 
 SELECT * 
 FROM crime_scene_report
@@ -43,12 +45,13 @@ WHERE person_id IN (16371, 14887)
 
 -- I saw the murder happen, and I recognized the killer from my gym when I was working out last week on January the 9th.
 
-SELECT *
+SELECT p.name
 FROM get_fit_now_member
-WHERE id LIKE "48Z%" AND membership_status = "gold"
 
--- This got me two members: "Joe Germuska" and "Jeremy Bowers"
+INNER JOIN person as p ON p.id = get_fit_now_member.person_id
+INNER JOIN drivers_license ON drivers_license.id = p.license_id
 
-SELECT *
-FROM get_fit_now_check_in
-WHERE check_in_date = 20180109
+WHERE get_fit_now_member.id LIKE "48Z%" 
+AND get_fit_now_member.membership_status = "gold"  
+AND drivers_license.plate_number LIKE "%H42W%"
+
