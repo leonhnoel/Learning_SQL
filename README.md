@@ -5,17 +5,17 @@ I wanted to learn SQL, so I decided to take a course at LearnSQL.com and solve s
 In this repository, you can find multiple challenges that I have solved over the past few weeks. 
 
 I started with the SQL [Murder Mystery](https://mystery.knightlab.com/), which provided a nice introduction to SQL. 
-After that, I alternated between solving [Preppin' Data](https://www.preppindata.com/challenges) challenges (originally aimed at Tableau Prep) and some Data with Danny challenges.
+After that, I alternated between solving [Preppin' Data](https://www.preppindata.com/challenges) challenges (originally aimed at Tableau Prep) and some [Data with Danny]() challenges.
 
 I have tried to structure the code in an organized way. Below, you can find a table with links to all the challenges and their solutions.
 
-## Murder Mystery
+### Murder Mystery
 
 |Challenge|Solution|
 |-|-|
 |[Murder Mystery](https://mystery.knightlab.com/)|[Link](SQL_Murder_Mystery/SQL_Murder_Mystery.sql) |
 
-## Preppin Data
+### Preppin Data
 
 |Challenge|Solution|
 |-|-|
@@ -32,8 +32,12 @@ I have tried to structure the code in an organized way. Below, you can find a ta
 |[2023 WK11](https://preppindata.blogspot.com/2023/03/2023-week-11-which-customers-are-closest.html)|[Link](Preppin_Data/2023_WK11.sql) |
 |[2023 WK12](https://preppindata.blogspot.com/2023/03/2023-week-12-regulatory-reporting.html)|[Link](Preppin_Data/2023_WK12.sql) |
 
-## Data with Danny
+### Data with Danny
 
 |Challenge|Solution|
 |-|-|
-|Murder Mystery |[Link](SQL Murder Mystery/SQL_Murder_Mystery.sql) |
+|[Danny's Diner](https://8weeksqlchallenge.com/case-study-1/)|[Link](Data_with_Danny/01_Danny's_Diner)|
+|[Pizza Runners](https://8weeksqlchallenge.com/case-study-2/)|[Link](Data_with_Danny/02_Pizza_Runners.sql)|
+|[Foodie Fi](https://8weeksqlchallenge.com/case-study-3/)|[Link](Data_with_Danny/03_Foodie_Fi.sql)|
+|[The Data Bank](https://8weeksqlchallenge.com/case-study-4/)|[Link](Data_with_Danny/04_The_Data_Bank.sql)|
+
