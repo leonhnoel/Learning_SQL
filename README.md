@@ -1,11 +1,11 @@
 # Learning SQL
 
-I wanted to learn SQL, so I decided to take a course at LearnSQL.com and solve some challenges using SQL.
+I wanted to learn SQL, so I decided to take a course at [LearnSQL.com](https://learnsql.com/) and solve some challenges using SQL.
 
 In this repository, you can find multiple challenges that I have solved over the past few weeks. 
 
 I started with the SQL [Murder Mystery](https://mystery.knightlab.com/), which provided a nice introduction to SQL. 
-After that, I alternated between solving [Preppin' Data](https://www.preppindata.com/challenges) challenges (originally aimed at Tableau Prep) and some [Data with Danny]() challenges.
+After that, I alternated between solving [Preppin' Data](https://www.preppindata.com/challenges) challenges (originally aimed at Tableau Prep) and some [Data with Danny](https://8weeksqlchallenge.com/) challenges.
 
 I have tried to structure the code in an organized way. Below, you can find tables with links to all the challenges and my solutions to them.
 
