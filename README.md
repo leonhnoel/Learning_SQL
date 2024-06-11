@@ -7,7 +7,7 @@ In this repository, you can find multiple challenges that I have solved over the
 I started with the SQL [Murder Mystery](https://mystery.knightlab.com/), which provided a nice introduction to SQL. 
 After that, I alternated between solving [Preppin' Data](https://www.preppindata.com/challenges) challenges (originally aimed at Tableau Prep) and some [Data with Danny]() challenges.
 
-I have tried to structure the code in an organized way. Below, you can find a table with links to all the challenges and their solutions.
+I have tried to structure the code in an organized way. Below, you can find tables with links to all the challenges and my solutions to them.
 
 ### Murder Mystery
 
