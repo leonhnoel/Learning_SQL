@@ -1,3 +1,5 @@
+-- in order to solve these challenges I make some changes to the data type structure of the tables, before starting with the challenges themselves.
+
 -- clean runner_orders table
 
 ALTER TABLE RUNNER_ORDERS ADD COLUMN date_temp DATE;
